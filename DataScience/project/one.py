@@ -19,6 +19,6 @@ data = qd.get_table('WIKI/PRICES', ticker=selected,
 # Check the data, what's it look like?
 data.head()
 print(data)
-print(type(data))
-data.to_csv('quandleData.csv')
-plt.show()
+#print(type(data))
+#data.to_csv('quandleData.csv')
+#plt.show()

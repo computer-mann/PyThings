@@ -6,7 +6,7 @@ con = psycopg2.connect(database="postgres",user="postgres", password="6522", hos
  #database="postgres",
 # Create a cursor via the connection
 cur = con.cursor()
-ex="#create schema people;"
+#ex="create schema people;"
 schemaString= """
                 CREATE TABLE people.person(
                person_id         varchar(11) CONSTRAINT UPKCL_peopId PRIMARY KEY,
